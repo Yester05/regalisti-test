@@ -30,11 +30,6 @@ sections:
   templates:
   - blog
 - type: document
-  path: src/pages/portfolio/index.md
-  label: Portfolio
-  templates:
-  - portfolio
-- type: document
   path: src/pages/contact.md
   label: Contact
   templates:
@@ -55,12 +50,12 @@ sections:
   templates:
   - post
 - type: directory
-  path: src/pages/projects
-  label: Project
+  path: src/pages/idee-regalo
+  label: Idee regalo
   create: all
   match: "**/*"
   templates:
-  - project
+  - page
 - type: document
   path: src/data/menus.json
   label: Site Menus
